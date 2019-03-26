@@ -1,0 +1,22 @@
+{
+  "name": "message_board_server_part",
+  "version": "1.0.0",
+  "description": "this is the server part for the message board ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "koa",
+    "message board",
+    "http",
+    "ajax"
+  ],
+  "author": "kingrong",
+  "license": "ISC",
+  "dependencies":{
+	  "koa":"",
+	  "koa-router":"",
+	  "koa-bodyparser":""
+  }
+}
