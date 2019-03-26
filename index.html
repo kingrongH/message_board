@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>This is a message board</title>
+		<link rel="stylesheet" href="message_board.css">
+	</head>
+	<body>
+		<div id="message_board">
+			<div id="form_box">
+				<div class="message-label">Leave a message here</div>
+				<form onsubmit="return submitMessage()">
+					<div class="message-div"><textarea name="messge_content" id="message" required></textarea></div>
+					<div><button class="btn">提交</button></div>
+				</form>
+			</div>	
+			<div id="show_message" class="message_pannel">
+			</div>
+		</div>
+		<script src="message_board.js"></script>
+	</body>
+</html>
